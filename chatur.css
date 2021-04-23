@@ -1,5 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-html{
-    font-family: 'Roboto', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* This is the HTML Body */
+body{
+    font-family: 'Montserrat', sans-serif;      
+    font-size: 30px;
 }
+
+/* For Header Logo */
+.logo{
+    font-size: 40px;
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Base Button */
+.btn{
+    background-color: #0d6efd;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+/* Colourful button */
+.success {background-color: #4CAF50;} /* Green */
+.primary {background-color: #0d6efd;} /* Blue */
+.danger {background-color: #f44336;}
+.warning {background-color: #ffc107;} /* Yellow */
+.gray {background-color: #e7e7e7; color: black;} /* Gray */
+.black {background-color: #555555;} /* Black */
