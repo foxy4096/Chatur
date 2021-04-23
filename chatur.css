@@ -1,11 +1,15 @@
+/* Importing the Font */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 /* This is the HTML Body */
 body{
     font-family: 'Montserrat', sans-serif;      
-    font-size: 30px;
+    font-size: 25px;
 }
 
 /* For Header Logo */
+header{
+    text-decoration: none;
+}
 .logo{
     font-size: 40px;
     text-decoration: none;
@@ -16,7 +20,7 @@ body{
 .btn{
     background-color: #0d6efd;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -31,3 +35,27 @@ body{
 .warning {background-color: #ffc107;} /* Yellow */
 .gray {background-color: #e7e7e7; color: black;} /* Gray */
 .black {background-color: #555555;} /* Black */
+
+/* Code */
+code {
+    padding: .2rem .5rem;
+    margin: 0 .2rem;
+    font-size: 90%;
+    white-space: nowrap;
+    background: #F1F1F1;
+    border: 1px solid #E1E1E1;
+    border-radius: 5px; }
+  pre > code {
+    display: block;
+    padding: 1rem 1.5rem;
+    white-space: pre; }
+
+/* Form */
+input{
+    font-size: large;
+    border-radius: 4px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
