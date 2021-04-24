@@ -34,3 +34,14 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          
+      - name: stylelint 
+        uses: actions-hub/stylelint@master
+        
+      - name: CSS Minifier
+        # You may pin to the exact commit or the version.
+        # uses: chand1012/action-css-minify@1f25edae2b1ed54f59b96c7d5a91fa4143773ffe
+        uses: chand1012/action-css-minify@v1
+        with:
+          # Folder with CSS
+          folder: /
