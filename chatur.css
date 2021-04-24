@@ -26,9 +26,8 @@ header {
 /* Base Button */
 
 .btn {
-    background-color: #0d6efd;
+    background-color: #3485ff;
     border: none;
-    border-radius: 5px;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -48,7 +47,7 @@ header {
 /* Green */
 
 .primary {
-    background-color: #0d6efd;
+    background-color: #3485ff;
 }
 
 
@@ -74,7 +73,8 @@ header {
 /* Gray */
 
 .black {
-    background-color: #555555;
+    background-color: #414141;
+    color: white;
 }
 
 
@@ -84,31 +84,38 @@ header {
 /* Code */
 
 code {
-    padding: .1rem .5rem;
-    margin: 0 .1rem;
-    font-size: 90%;
-    white-space: nowrap;
-    background: #F1F1F1;
-    border: 1px solid #b8b8b8;
-    border-radius: 5px;
+    font-family: Consolas, "courier new";
+    color: rgb(0, 0, 0);
+    background-color: #f1f1f1;
+    padding: 2px;
+    font-size: 105%;
+    font-family: monospace;
 }
 
-pre>code {
-    display: block;
-    padding: 0.5rem 1rem;
-    white-space: pre;
+pre {
+    border-style: solid;
+    background-color: #ffffff;
 }
 
 
 /* Form */
 
 input {
-    font-size: large;
-    border-radius: 4px;
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
 }
 
 
@@ -117,7 +124,9 @@ input {
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-    width: 40%;
+    width: 20%;
+    height: 5%;
+    margin-bottom: 10px;
 }
 
 .card:hover {
@@ -128,6 +137,22 @@ input {
     padding: 2px 16px;
 }
 
-img {
-    border-radius: 5px 5px 0 0;
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 15px;
+}
+
+th {
+    text-align: left;
+}
+
+table {
+    border-spacing: 5px;
 }
