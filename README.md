@@ -13,4 +13,4 @@ Put this CDN link in Html head
 ```
 https://gitcdn.link/repo/foxy4096/Chatur/main/chatur.css
 ```
-Done
+<a href="https://foxy4096.github.io/Chatur/">Docs</a>
