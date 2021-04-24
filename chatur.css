@@ -1,23 +1,31 @@
 /* Importing the Font */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 /* This is the HTML Body */
-body{
-    font-family: 'Montserrat', sans-serif;      
-    font-size: 25px;
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
 }
 
+
 /* For Header Logo */
-header{
+
+header {
     text-decoration: none;
 }
-.logo{
+
+.logo {
     font-size: 40px;
     text-decoration: none;
     color: #000000;
 }
 
+
 /* Base Button */
-.btn{
+
+.btn {
     background-color: #0d6efd;
     border: none;
     border-radius: 5px;
@@ -28,34 +36,98 @@ header{
     display: inline-block;
     font-size: 16px;
 }
+
+
 /* Colourful button */
-.success {background-color: #4CAF50;} /* Green */
-.primary {background-color: #0d6efd;} /* Blue */
-.danger {background-color: #f44336;}
-.warning {background-color: #ffc107;} /* Yellow */
-.gray {background-color: #e7e7e7; color: black;} /* Gray */
-.black {background-color: #555555;} /* Black */
+
+.success {
+    background-color: #4CAF50;
+}
+
+
+/* Green */
+
+.primary {
+    background-color: #0d6efd;
+}
+
+
+/* Blue */
+
+.danger {
+    background-color: #f44336;
+}
+
+.warning {
+    background-color: #ffc107;
+}
+
+
+/* Yellow */
+
+.gray {
+    background-color: #e7e7e7;
+    color: black;
+}
+
+
+/* Gray */
+
+.black {
+    background-color: #555555;
+}
+
+
+/* Black */
+
 
 /* Code */
+
 code {
-    padding: .2rem .5rem;
-    margin: 0 .2rem;
+    padding: .1rem .5rem;
+    margin: 0 .1rem;
     font-size: 90%;
     white-space: nowrap;
     background: #F1F1F1;
-    border: 1px solid #E1E1E1;
-    border-radius: 5px; }
-  pre > code {
+    border: 1px solid #b8b8b8;
+    border-radius: 5px;
+}
+
+pre>code {
     display: block;
-    padding: 1rem 1.5rem;
-    white-space: pre; }
+    padding: 0.5rem 1rem;
+    white-space: pre;
+}
+
 
 /* Form */
-input{
+
+input {
     font-size: large;
     border-radius: 4px;
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+}
+
+
+/* Cards */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 40%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+img {
+    border-radius: 5px 5px 0 0;
 }
