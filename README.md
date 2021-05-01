@@ -14,7 +14,9 @@ Put this CDN link in HTML head
 
 ```
 <link rel="stylesheet" href="https://gitcdn.link/repo/foxy4096/Chatur/main/chatur.css">
-# or
+```
+OR
+```
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/foxy4096/Chatur/chatur.css">
 ```
 
