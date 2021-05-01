@@ -6,11 +6,15 @@ Simple CSS with no JS in just few Kbs
 
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/foxy4096/Chatur/CI)
 
+<a href="https://foxy4096.github.io/Chatur/">Docs</a>
+
 ## Setup and usage
 
-Put this CDN link in Html head
+Put this CDN link in HTML head
 
 ```
-https://gitcdn.link/repo/foxy4096/Chatur/main/chatur.css
+<link rel="stylesheet" href="https://gitcdn.link/repo/foxy4096/Chatur/main/chatur.css">
+# or
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/foxy4096/Chatur/chatur.css">
 ```
-<a href="https://foxy4096.github.io/Chatur/">Docs</a>
+
